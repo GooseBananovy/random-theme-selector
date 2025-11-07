@@ -1,0 +1,54 @@
+{
+  "name": "random-theme-selector",
+  "displayName": "Random Theme Selector",
+  "description": "Устанавливает случайную тему из числа установленных тем",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "random",
+    "theme",
+    "selector"
+  ],
+  "author": {
+    "name": "Georgiy Gorbov",
+    "email": "GooseBananovy@icloud.com"
+  },
+  "publisher": "GeorgiyGorbov",
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "activationEvents": [
+    "onCommand:random-theme-selector.selectRandomTheme"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "random-theme.selectRandomTheme",
+        "title": "Select Random Theme"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
