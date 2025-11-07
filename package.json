@@ -21,7 +21,7 @@
   "publisher": "GeorgiyGorbov",
   "repository": {
     "type": "git",
-    "url": "..."
+    "url": "git@github.com:GooseBananovy/random-theme-selector.git"
   },
   "activationEvents": [
     "onCommand:random-theme-selector.selectRandomTheme"

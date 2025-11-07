@@ -89,5 +89,11 @@ const themes = getInstalledColorThemes();
 
 ### История изменения проекта
 ```
-[будущие коммиты будут отображаться здесь]
+```Commit hash```: 2821cce87d176a7afc81136fece2dde49800dd00 (HEAD -> main, origin/main)
+
+```Author```: Goose Bananovy <goosebananovy@icloud.com>
+
+```Date```:   Fri Nov 7 18:22:01 2025 +0300
+
+```Description```: initial commit
 ```
